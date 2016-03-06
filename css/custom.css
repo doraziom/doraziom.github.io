@@ -1,0 +1,107 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+body, body a {
+  color: #777;
+}
+
+body a:focus {
+  text-decoration: none;
+  color: #777;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: #777;
+  opacity: 0.5;
+}
+
+.navbar {
+    background-color: white;
+    border-color: white;
+  }
+
+.navbar-header a {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 4px
+}
+
+
+.jumbotron {
+  text-align: center;
+  color:white;
+  background-color: #E91E63;
+  margin-bottom: 0px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.jumbotron a {
+  color:white;
+}
+
+.invito-vittoria {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.row {
+background-color: #E91E63;
+}
+
+.chiesa a, .ristorante a {
+  color:white;
+  font-size: 25px;
+}
+
+.chiesa {
+  background-image:url('../images/chiesa.jpg');
+  color:white;
+  height: 350px;
+}
+
+.ristorante {
+  background-image:url('../images/ristorante.jpg');
+  color:white;
+  height: 350px;
+}
+
+.homepage {
+  padding-bottom: 40px;
+}
+
+
+hr {
+    margin: 50px 0px;
+    color: #E91E63;
+    background-color: #E91E63;
+    height:2px;
+}
+
+footer {
+  color:white;
+  font-size: 40px;
+  background-color: #E91E63;
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+@media (max-width:767px) {
+  .navbar-default .navbar-toggle {
+    background-color: #d8d8d8;
+    border-color: white;
+ }
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: #d8d8d8;
+   border-color: white;
+   opacity: 0.5;
+ }
+}
